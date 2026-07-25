@@ -1,0 +1,10 @@
+https://www.google.com
+https://www.github.com
+https://www.microsoft.com
+https://jsonplaceholder.typicode.com/posts
+https://api.github.com/users/octocat
+https://www.nonexistentwebsite12345.com
+https://httpstat.us/404
+https://httpstat.us/500
+https://jsonplaceholder.typicode.com/invalidendpoint
+http://localhost:9999

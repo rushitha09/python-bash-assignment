@@ -1,0 +1,6 @@
+Failed Endpoints:
+https://www.nonexistentwebsite12345.com -> HTTPSConnectionPool(host='www.nonexistentwebsite12345.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='www.nonexistentwebsite12345.com', port=443): Failed to resolve 'www.nonexistentwebsite12345.com' ([Errno 11001] getaddrinfo failed)"))
+https://httpstat.us/404 -> ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+https://httpstat.us/500 -> HTTPSConnectionPool(host='httpstat.us', port=443): Max retries exceeded with url: /500 (Caused by ConnectTimeoutError(<HTTPSConnection(host='httpstat.us', port=443) at 0x135e670e490>, 'Connection to httpstat.us timed out. (connect timeout=5)'))
+https://jsonplaceholder.typicode.com/invalidendpoint -> 404
+http://localhost:9999 -> HTTPConnectionPool(host='localhost', port=9999): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPConnection(host='localhost', port=9999): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
